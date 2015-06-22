@@ -3177,3 +3177,268 @@ ActionView::Template::Error (undefined local variable or method `gallery_path' f
   Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
   Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:14:03 +1200
+Processing by FlowersController#index as HTML
+  [1m[35mFlower Load (0.4ms)[0m  SELECT "flowers".* FROM "flowers"
+  Rendered flowers/index.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `gallery_path' for #<#<Class:0x007fb65748a7c8>:0x007fb657489d50>):
+     9:       <%= link_to "Home", flowers_path %>
+    10:     </div>
+    11:     <div class="item">
+    12:       <%= link_to "Gallery", gallery_path %>
+    13:     </div>
+    14:     <a class="item">Plans</a>
+    15:     <a class="item">Contact</a>
+  app/views/flowers/index.html.erb:12:in `_app_views_flowers_index_html_erb___2501426084150536060_70210562572480'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.5ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:19:35 +1200
+Processing by FlowersController#index as HTML
+  [1m[36mFlower Load (0.5ms)[0m  [1mSELECT "flowers".* FROM "flowers"[0m
+  Rendered flowers/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined local variable or method `gallery_path' for #<#<Class:0x007fb6571c21d0>:0x007fb6571c10a0>):
+     9:       <%= link_to "Home", flowers_path %>
+    10:     </div>
+    11:     <div class="item">
+    12:       <%= link_to "Gallery", gallery_path %>
+    13:     </div>
+    14:     <a class="item">Plans</a>
+    15:     <a class="item">Contact</a>
+  app/views/flowers/index.html.erb:12:in `_app_views_flowers_index_html_erb___2501426084150536060_70210562572480'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.8ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:19:37 +1200
+Processing by FlowersController#index as HTML
+  [1m[35mFlower Load (0.2ms)[0m  SELECT "flowers".* FROM "flowers"
+  Rendered flowers/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined local variable or method `gallery_path' for #<#<Class:0x007fb6571c21d0>:0x007fb6534ce828>):
+     9:       <%= link_to "Home", flowers_path %>
+    10:     </div>
+    11:     <div class="item">
+    12:       <%= link_to "Gallery", gallery_path %>
+    13:     </div>
+    14:     <a class="item">Plans</a>
+    15:     <a class="item">Contact</a>
+  app/views/flowers/index.html.erb:12:in `_app_views_flowers_index_html_erb___2501426084150536060_70210562572480'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.9ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:55 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:56 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:19:56 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:19:56 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:19:56 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:19:56 +1200
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 10:19:58 +1200
+
+AbstractController::ActionNotFound (The action 'index' could not be found for GalleryController):
+  actionpack (4.1.10) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.10) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:692:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/cookies.rb:562:in `call'
+  activerecord (4.1.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.10) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.10) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.10) lib/rails/engine.rb:514:in `call'
+  railties (4.1.10) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 10:19:58 +1200
+
+AbstractController::ActionNotFound (The action 'index' could not be found for GalleryController):
+  actionpack (4.1.10) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.10) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.10) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.10) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.10) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.10) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.10) lib/action_dispatch/routing/route_set.rb:692:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/cookies.rb:562:in `call'
+  activerecord (4.1.10) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.10) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.10) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.10) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.10) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.10) lib/rails/engine.rb:514:in `call'
+  railties (4.1.10) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jasmine/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.8ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 10:21:05 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:21:06 +1200

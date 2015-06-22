@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'flowers/index'
-  get 'gallery/index'
+  get 'gallery', to: 'gallery#index'
 
   resources :flowers
 
