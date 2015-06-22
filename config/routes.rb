@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'flowers/index'
+  resources :flowers
+
+  root 'flowers#index', as: 'home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
