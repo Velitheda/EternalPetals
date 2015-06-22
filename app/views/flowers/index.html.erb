@@ -1,3 +1,18 @@
-<h1>Eternal Petals</h1>
+<div class="main-header">
+  <h1>Eternal Petals</h1>
 
-<%= image_tag("High_res_flowers.jpg") %>
+
+  <%= image_tag("High_res_flowers.jpg", class: "header-image") %>
+
+  <div class="ui menu header-nav">
+    <div class="item">
+      <%= link_to "Home", flowers_path %>
+    </div>
+    <div class="item">
+      <%= link_to "Gallery", gallery_path %>
+    </div>
+    <a class="item">Plans</a>
+    <a class="item">Contact</a>
+  </div>
+
+</div>

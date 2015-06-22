@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 gem 'therubyracer' # Ruby
 # Less compiler
 gem 'less-rails', '~> 2.7.0'
+
+# gem 'semantic-ui-rails'

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'flowers/index'
+  get 'gallery/index'
+
   resources :flowers
 
   root 'flowers#index', as: 'home'
