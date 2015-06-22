@@ -3724,3 +3724,1992 @@ Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:34:05 +1200
 Processing by FlowersController#index as HTML
   Rendered flowers/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:41:54 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:42:25 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:46:13 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+  [1m[36mFlower Load (0.3ms)[0m  [1mSELECT "flowers".* FROM "flowers"[0m
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `plans_path' for #<#<Class:0x007fb65358c080>:0x007fb653587580>):
+    21:         <%= link_to "Gallery", gallery_path %>
+    22:       </div>
+    23:       <div class="item">
+    24:         <%= link_to "Plans", plans_path %>
+    25:       </div>
+    26:       <a class="item">Contact</a>
+    27:     </div>
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__289070356150072328_70210529524140'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.8ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:46:41 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+  [1m[35mFlower Load (0.3ms)[0m  SELECT "flowers".* FROM "flowers"
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `plans_path' for #<#<Class:0x007fb6575c8108>:0x007fb6575c32c0>):
+    21:         <%= link_to "Gallery", gallery_path %>
+    22:       </div>
+    23:       <div class="item">
+    24:         <%= link_to "Plans", plans_path %>
+    25:       </div>
+    26:       <a class="item">Contact</a>
+    27:     </div>
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__289070356150072328_70210529524140'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.6ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:46:43 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+  [1m[36mFlower Load (0.2ms)[0m  [1mSELECT "flowers".* FROM "flowers"[0m
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined local variable or method `plans_path' for #<#<Class:0x007fb6575c8108>:0x007fb657073540>):
+    21:         <%= link_to "Gallery", gallery_path %>
+    22:       </div>
+    23:       <div class="item">
+    24:         <%= link_to "Plans", plans_path %>
+    25:       </div>
+    26:       <a class="item">Contact</a>
+    27:     </div>
+  app/views/layouts/application.html.erb:24:in `_app_views_layouts_application_html_erb__289070356150072328_70210529524140'
+
+
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jasmine/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.9ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 10:46:59 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:47:00 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 10:47:02 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 10:54:10 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:55:12 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 10:55:38 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 10:59:18 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:01:51 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:02:22 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:02:23 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 106ms (Views: 104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:02:24 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:02:25 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:02:26 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:07:49 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:13:58 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:13:59 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:15:21 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:15:22 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:16:19 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:17:55 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:18:06 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:18:08 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:18:09 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:18:10 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:18:11 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:18:12 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:52 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:18:53 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:18:55 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:18:56 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:18:56 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:18:57 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:18:58 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:19:08 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:19:10 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:19:11 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:19:12 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:22:56 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:22:58 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:22:59 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:23:15 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:23:31 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:26:38 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:27:01 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:28:32 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:28:56 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:32:35 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:32:35 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:35 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:32:36 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:34:33 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:35:17 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:35:17 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:17 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:35:18 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:35:25 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:42 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:35:43 +1200
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:35:54 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:35:56 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:35:56 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:35:57 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:35:58 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:36:28 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:36:29 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:37:12 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:38:02 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:39:01 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:40:27 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:00 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:23 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:41:24 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:42:43 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:42:44 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:43:00 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:08 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:43:39 +1200
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/less_style_sheet.css?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/flowers.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/plan.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/gallery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/semantic/semantic-init.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/semantic.css" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/reset.css" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/semantic/semantic.min.js?body=1" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/assets/High_res_flowers.jpg" for 127.0.0.1 at 2015-06-23 11:43:51 +1200
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:44:05 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:44:07 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122ms (Views: 119.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:44:08 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:44:08 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 110ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:44:10 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:44:11 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:44:26 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:44:27 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:44:30 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plan" for 127.0.0.1 at 2015-06-23 11:44:31 +1200
+Processing by PlanController#index as HTML
+  Rendered plan/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gallery" for 127.0.0.1 at 2015-06-23 11:44:31 +1200
+Processing by GalleryController#index as HTML
+  Rendered gallery/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 124ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flowers" for 127.0.0.1 at 2015-06-23 11:44:32 +1200
+Processing by FlowersController#index as HTML
+  Rendered flowers/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 83.2ms | ActiveRecord: 0.0ms)

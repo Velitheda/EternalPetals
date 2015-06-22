@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>EternalPetals</title>
-  <%= stylesheet_link_tag    'less_style_sheet', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>EternalPetals</title>
+    <%= stylesheet_link_tag    'less_style_sheet', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
 
-  <div class="main-header">
-    <h1>Eternal Petals</h1>
 
-    <%= image_tag("High_res_flowers.jpg", class: "header-image") %>
+    <div class="ui page grid">
 
-    <div class="ui menu header-nav">
-      <div class="item">
-        <%= link_to "Home", flowers_path %>
+      <div class="main-header">
+
+        <!-- Why doesn't this show? -->
+        <h1>Eternal Petals</h1>
+
+        <%= image_tag("High_res_flowers.jpg", class: "header-image") %>
+
+        <div class="ui menu header-nav">
+          <div class="item">
+            <%= link_to "Home", flowers_path %>
+          </div>
+          <div class="item">
+            <%= link_to "Gallery", gallery_path %>
+          </div>
+          <div class="item">
+            <%= link_to "Plans", plan_path %>
+          </div>
+          <a class="item">Contact</a>
+        </div>
+
       </div>
-      <div class="item">
-        <%= link_to "Gallery", gallery_path %>
+
+
+      <div class="sixteen wide column main-body">
+        <%= yield %>
       </div>
-      <a class="item">Plans</a>
-      <a class="item">Contact</a>
     </div>
 
-  </div>
-  <%= yield %>
-
-</body>
+  </body>
 </html>
