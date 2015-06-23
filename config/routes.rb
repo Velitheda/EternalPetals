@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'flowers/index'
   get 'gallery', to: 'gallery#index'
   get 'plan', to: 'plan#index'
+  get 'contact', to: 'contact#index'
 
   resources :flowers
 
